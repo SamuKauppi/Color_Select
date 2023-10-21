@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "displayName": "Color Circle",
   "description": "Color selector selects color",
-  "unity": "2023.1.5f1",
+  "unity": "2023.1",
   "author": {
     "name": "SMU",
     "email": "d.friikki@gmail.com",
