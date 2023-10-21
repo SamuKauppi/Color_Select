@@ -704,8 +704,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ColorWheelSaveGame, Assembly-CSharp
+      - m_Target: {fileID: 1628516023202060631}
+        m_TargetAssemblyTypeName: Samu_Kauppi.ColorWheel.ColorWheel, Samu_Kauppi.ColorWheel
         m_MethodName: CancelColor
         m_Mode: 1
         m_Arguments:
@@ -1246,8 +1246,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ColorWheelSaveGame, Assembly-CSharp
+      - m_Target: {fileID: 1628516023202060631}
+        m_TargetAssemblyTypeName: Samu_Kauppi.ColorWheel.ColorWheel, Samu_Kauppi.ColorWheel
         m_MethodName: SetColor
         m_Mode: 1
         m_Arguments:
@@ -1258,7 +1258,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 5282998199129941787}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UpdateColor, Assembly-CSharp
         m_MethodName: ApplyColor
         m_Mode: 1
@@ -1342,7 +1342,6 @@ GameObject:
   - component: {fileID: 1200186785322997818}
   - component: {fileID: 2616040050716546744}
   - component: {fileID: 8859623191104874870}
-  - component: {fileID: 5282998199129941787}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1489,17 +1488,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &5282998199129941787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9172376396401729181}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4de3cf9812243a42a63f75056f9a5ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetImage: {fileID: 2616040050716546744}
-  material: {fileID: 2100000, guid: 5c4a9bbd8d67b6d4b8115b4417eda0fb, type: 2}
