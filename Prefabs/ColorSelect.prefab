@@ -1453,8 +1453,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ColorWheelSaveGame, Assembly-CSharp
+      - m_Target: {fileID: 1628516023202060631}
+        m_TargetAssemblyTypeName: Samu_Kauppi.ColorWheel.ColorWheel, Samu_Kauppi.ColorWheel
         m_MethodName: ActivateColorPicker
         m_Mode: 1
         m_Arguments:
